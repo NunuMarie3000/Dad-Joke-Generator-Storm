@@ -1,0 +1,47 @@
+html{
+    font-family: 'Shrikhand', cursive;
+    background-color: rgb(0, 217, 145);
+}
+
+#dad-joke-container{
+    padding: 5vh;
+    border-color: rgb(227, 139, 38);
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 5%;
+    margin: 12vh 5vw 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+#joke-goes-here{
+    text-align: center;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(0, 217, 145);
+    color: black;
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    margin-top: 5vh;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 217, 145, .5);
+}
+
+footer{
+    font-size: small;
+    margin-left: 5vw;
+}
