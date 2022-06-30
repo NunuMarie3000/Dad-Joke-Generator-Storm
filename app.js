@@ -57,13 +57,15 @@ printJoke();
 //when the button is clicked, another random joke will be generated
 anotherButton.addEventListener('click', function(){
     generateNewJoke();
-    generateJoke();
-    printJoke();
+    // generateJoke();
+    // printJoke();
 });
 // //add event listener to button
 // anotherButton.addEventListener('click', generateNewJoke);
 
-
+function checkApi(){
+    if(fetch('https://dad-jokes.p.rapidapi.com/random/joke'))
+}
 
 
 // //we wanna make a dad joke generator
