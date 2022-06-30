@@ -53,7 +53,7 @@ function printJoke(){
     //add h2 to the html div
     printJokeHere.append(jokeEl);
 }
-printJoke();
+// printJoke();
 //when the button is clicked, another random joke will be generated
 anotherButton.addEventListener('click', function(){
     generateNewJoke();
@@ -62,10 +62,6 @@ anotherButton.addEventListener('click', function(){
 });
 // //add event listener to button
 // anotherButton.addEventListener('click', generateNewJoke);
-
-function checkApi(){
-    if(fetch('https://dad-jokes.p.rapidapi.com/random/joke'))
-}
 
 
 // //we wanna make a dad joke generator
